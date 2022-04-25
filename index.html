@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main_div">
+        <div class="header_div">
+            <h1 class="txtc"> dating application form</h1>
+        </div>
+        
+        <form action="">
+            <label><strong>name</strong> &#58;&nbsp;&nbsp;</label>
+            <input type="text" class="mg_tp bdr pad wid mg_lft" placeholder="First Name">
+            <input type="text" id="l_name" class="bdr pad wid" placeholder="Last Name"><br /><br/>
+            <label><strong>email</strong> &#58; &nbsp;&nbsp;&nbsp;</label> 
+            <input type="email" style="width:85%;" class="mg_tp bdr pad " placeholder="Email"><br /><br />
+            <label><strong>ph.num</strong> &#58;</label>
+            <input type="number" style="width:85%;" class="mg_tp bdr pad" placeholder="123-456-789"><br /><br />
+            <label><strong>gander</strong> &#58; &nbsp;&nbsp;&nbsp;</label>
+            <input type="radio" name="gander" value="male" class="mg_tp" checked>male
+            <input type="radio" name="gander" value="female">female<br /><br />
+            <label><strong>outing date</strong> &#58; &nbsp;&nbsp;&nbsp;</label>
+            <input type="date" class="mg_tp bdr pad"><br /><br />
+            <label><strong>education</strong> &#58;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" class="mg_tp bdr pad"> <br /><br />
+            <label><strong>select that applies to you</strong> &#58;</label>
+            <select class="mg_tp bdr pad" multiple>
+                <option>I have tattoos and/or piercings</option>
+                <option>I am more than 2 years older than my daughter</option>
+                <option>I own a panel van or Ferrari</option>
+                <option>I work full-time</option>
+                <option>My parents are rich</option>
+                <option>Is the date at a private/public location</option>
+            </select><br /><br />
+            <label ><strong>dating reason</strong> &#58;</label>
+            <textarea class="mg_tp" id="" cols="25" rows="2" maxlength="50"></textarea><br /><br />
+            <label ><strong>bank statement</strong>&#58;</label>
+            <input type="file" class="mg_tp"> <br /><br />
+            <label><strong>recent photo</strong> &#58;</label>
+            <input type="file" class="mg_tp"> <br /><br />
+
+        </form>
+        <button class="button">submit</button>
+    </div>
+</body>
+</html>
